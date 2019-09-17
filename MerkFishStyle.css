@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #e8e8e8;
+    font-size: 18px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    padding: 25px;
+
+}
+
+#homeLogo {
+    float: left;
+}
+
+#homeLogo img {
+    width: 200px;
+    margin-top: -50px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #ae4ab5; 
+}
+
+
+.content {
+    width: 100%;
+}
+
+.bg-image {
+    height: 100%;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 { 
+    background-image: url("");
+    background-color: #e8e8e8;
+}
+
+.center-text {
+    text-align: center;
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-top: -185px;
+    margin-left: -400px;
+    font-size: 50px;
+}
+.img2 { background-image: url("img_girl.jpg"); }
+.img3 { background-image: url("img_lights.jpg"); }
+
+
+.hero-image {
+    background-image: url("");
+    background-color: #cccccc; 
+    height: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;    
+}
+
